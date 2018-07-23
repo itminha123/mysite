@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Member List</title>
+</head>
+<body>
+{% for member in members %}
+    {% if member != 'Kim' %}
+    <li>{{member}}</li>
+    {% endif %}
+{% endfor %}
+<!--
+<li>{{members.0}}</li>
+<li>{{members.1}}</li>
+<li>{{members.2}}</li>
+-->
+    <img src='static/image/haha.gif'>
+</body>
+</html>
